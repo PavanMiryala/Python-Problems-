@@ -1,6 +1,6 @@
 #dataframe is a 2d labeled data structure in pandas.it is similar to a table:rows represents records,columns represents variables ,and an index indentifies rows.
 
-#creating a dataframe 
+# creating a dataframe 
 # import pandas as pd
 # df=pd.DataFrame({
 #     "name":["pavan","sai","vijay","akki","nikki","bunny","sunny"],
@@ -8,7 +8,7 @@
 # })
 # print(df)
 
-#list of dictionary
+# #list of dictionary
 # data = [
 #     {"Name": "Rahul", "Age": 25, "Salary": 45000},
 #     {"Name": "Priya", "Age": 28, "Salary": 60000},
@@ -27,7 +27,7 @@
 #                 columns=["empid","age","salary"])
 # print(df)
 
-#from series also we can add table
+# #from series also we can add table
 # names=pd.Series(["pavan","akki","anil"])
 # ages=pd.Series([12,12,13])
 # salaries=pd.Series([20000,30000,34000])
@@ -36,8 +36,7 @@
 #     "ages":ages,
 #     "salaries":salaries})
 # print(df)
-
-
+# import pandas as pd
 # employees = pd.DataFrame({
 #     "Employee_ID": ["E101", "E102", "E103", "E104", "E105", "E106"],
 #     "Name": ["Rahul", "Priya", "Arun", "Meena", "Kiran", "Sneha"],
@@ -47,6 +46,6 @@
 # })
 # print(employees)
 
-import pandas as pd
-df = pd.read_csv("./data.csv")
-print(df)
+# import pandas as pd
+# df = pd.read_csv("./data.csv")
+# print(df)
