@@ -83,3 +83,59 @@
 # arr=[10,20,40,30]
 # result=secondhighest(arr)
 # print("secondgighest is ",result)
+
+#reverse an array 
+# arr=[10,20,40,30]
+# left=0
+# right=len(arr)-1
+# while left<right:
+#     arr[left],arr[right]=arr[right],arr[left]
+#     left+=1
+#     right-=1
+# print(arr)
+
+
+#find the average
+# arr=[10,20,30,42,32]
+# total=0
+# for i in arr:
+#     total=total+i
+# print("the sum of array is :",total)
+# average=total/len(arr)
+# print("the average of array is :",average)
+
+#by using function
+# def average1(arr):
+#     total=0
+#     for i in arr:
+#         total=total+i
+#     return total/len(arr)
+# arr=[10,20,30,43,45,30]
+# result=average1(arr)
+# print(result)
+
+#count negative,positive and zero
+# arr=[10,20,-11,-2,0,-12,14,0,-18,0]
+# positive=0
+# negative=0
+# zero=0
+# for i in arr:
+#     if i>0:
+#         positive+=1
+#     elif i<0:
+#         negative+=1
+#     else:
+#         zero=+1
+
+# print("positive numbers are :",positive)
+# print("negative numbers are :",negative)
+# print("zeros are :",zero)
+
+#remove duplicates 
+# arr=[10,20,30,10,20,30]
+# result=[]
+# for i in arr:
+#     if i not in result:
+#         result.append(i)
+# print(result)
+
