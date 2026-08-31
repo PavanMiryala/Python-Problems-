@@ -1,3 +1,32 @@
+
+# def armstrong(n):
+#     temp=n
+#     total=0
+#     while temp>0:
+#         digit=temp%10
+#         total=total+digit**3
+#         temp=temp//10
+#     if total==n:
+#         print("armstrong")
+#     else:
+#         print("not armstrong")
+# armstrong(153)
+
+
+#palindrome  if single elemnet means this logic 
+# def palindrome(n):
+#     temp=n
+#     rev=0
+#     while temp>0:
+#         digit=temp%10
+#         rev=rev*10+digit
+#         temp=temp//10
+#     if rev==n:
+#         print("palindrome")
+#     else:
+#         print("not palindrome")
+# palindrome(121)
+
 # #find largest elememt 
 # arr=[10,20,30,15,35,40,45]
 # largest=arr[0]
@@ -139,3 +168,78 @@
 #         result.append(i)
 # print(result)
 
+
+#DAY 2 
+#reverse
+# arr = [5, 10, 15, 20, 25]
+# left=0
+# right=len(arr)-1
+# while left<right:
+#     arr[left],arr[right]=arr[right],arr[left]
+#     right-=1
+#     left+=1
+# print(arr)
+
+
+#palindrome 
+# arr = [1, 2, 3, 2, 1]
+# left=0
+# right=len(arr)-1
+# while left < right:
+#     if arr[left]!=arr[right]:
+#         print("it is not a palindrome")
+#         break
+#     left+=1
+#     right-=1
+# else:
+#     print("it is a palindrome")
+
+#two sum
+# arr = [1, 2, 3, 4, 6, 8, 11]
+# target = 14
+# left=0
+# right=len(arr)-1
+# while left < right:
+#     total=arr[left]+arr[right]
+#     if total==target:
+#         print(arr[left],arr[right])
+#         break
+#     elif total<target:
+#         left+=1
+#     else:
+#         right-=1
+
+
+#three sum
+# arr = [1, 2, 3, 4, 5, 6, 7, 8]
+# target = 15
+# fixed=1
+# left=0
+# right=len(arr)-1
+# while left < right:
+#     total=arr[fixed]+arr[left]+arr[right]
+#     if total==target:
+#         print(arr[fixed]+arr[left]+arr[right])
+#         break
+#     elif total<target:
+#         left+=1
+#     else:
+#         right-=1
+
+#move zeros 
+# arr = [0, 1, 0, 3, 12]
+# j=0
+# for i in range(len(arr)):
+#     if arr[i]!=0:
+#         arr[i],arr[j]=arr[j],arr[i]
+#         j+=1
+# print(arr)
+
+#remove duplicates 
+arr = [1, 1, 2, 2, 3, 4, 4]
+i=0
+for j in range(1,len(arr)):
+    if arr[i]!=arr[j]:
+        i+=1
+        arr[i]=arr[j]
+print(arr[:i+1])
