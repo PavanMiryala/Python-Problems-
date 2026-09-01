@@ -1,2 +1,41 @@
-name age salry
-pavan 18 30000
+Order_ID	Order_Date	Customer_ID	Product	Category	Quantity	Price	City
+ORD1001	01-07-2026	C1001	Laptop	Electronics	2	62000	Hyderabad
+ORD1002	01-07-2026	C1002	Smartphone	Electronics	3	28000	Bengaluru
+ORD1003	02-07-2026	C1003	Office Chair	Furniture	4	8500	Chennai
+ORD1004	03-07-2026	C1004	Monitor	Electronics	5	18500	Hyderabad
+ORD1005	04-07-2026	C1005	Keyboard	Accessories	12	2200	Pune
+ORD1006	05-07-2026	C1006	Mouse	Accessories	18	1200	Mumbai
+ORD1007	06-07-2026	C1007	Laptop	Electronics	1	68000	Delhi
+ORD1008	07-07-2026	C1008	Tablet	Electronics	6	24500	Hyderabad
+ORD1009	08-07-2026	C1009	Desk	Furniture	3	12500	Bengaluru
+ORD1010	09-07-2026	C1010	Headphones	Accessories	8	3500	Chennai
+ORD1011	10-07-2026	C1011	Smartphone	Electronics	4	31000	Mumbai
+ORD1012	11-07-2026	C1012	Monitor	Electronics	2	21000	Pune
+ORD1013	12-07-2026	C1013	Laptop	Electronics	3	59000	Hyderabad
+ORD1014	13-07-2026	C1014	Office Chair	Furniture	6	9200	Delhi
+ORD1015	14-07-2026	C1015	Keyboard	Accessories	15	2400	Bengaluru
+ORD1016	15-07-2026	C1016	Mouse	Accessories	25	1100	Hyderabad
+ORD1017	16-07-2026	C1017	Tablet	Electronics	3	27000	Mumbai
+ORD1018	17-07-2026	C1018	Desk	Furniture	5	11800	Chennai
+ORD1019	18-07-2026	C1019	Headphones	Accessories	10	4200	Pune
+ORD1020	19-07-2026	C1020	Smartphone	Electronics	2	29500	Delhi
+ORD1021	20-07-2026	C1021	Laptop	Electronics	4	65000	Bengaluru
+ORD1022	21-07-2026	C1022	Monitor	Electronics	7	17500	Hyderabad
+ORD1023	22-07-2026	C1023	Office Chair	Furniture	8	7900	Mumbai
+ORD1024	23-07-2026	C1024	Keyboard	Accessories	20	2100	Chennai
+ORD1025	24-07-2026	C1025	Mouse	Accessories	30	1050	Delhi
+ORD1026	25-07-2026	C1026	Tablet	Electronics	5	25500	Pune
+ORD1027	26-07-2026	C1027	Laptop	Electronics	2	61000	Hyderabad
+ORD1028	27-07-2026	C1028	Desk	Furniture	4	13200	Bengaluru
+ORD1029	28-07-2026	C1029	Headphones	Accessories	14	3900	Mumbai
+ORD1030	29-07-2026	C1030	Smartphone	Electronics	5	30500	Chennai
+ORD1031	30-07-2026	C1031	Monitor	Electronics	3	19500	Delhi
+ORD1032	31-07-2026	C1032	Office Chair	Furniture	5	8800	Hyderabad
+ORD1033	01-08-2026	C1033	Laptop	Electronics	3	64000	Pune
+ORD1034	02-08-2026	C1034	Keyboard	Accessories	16	2300	Mumbai
+ORD1035	03-08-2026	C1035	Mouse	Accessories	22	1150	Bengaluru
+ORD1036	04-08-2026	C1036	Tablet	Electronics	4	26000	Hyderabad
+ORD1037	05-08-2026	C1037	Desk	Furniture	7	12100	Delhi
+ORD1038	06-08-2026	C1038	Headphones	Accessories	9	4500	Chennai
+ORD1039	07-08-2026	C1039	Smartphone	Electronics	3	31500	Pune
+ORD1040	08-08-2026	C1040	Laptop	Electronics	2	67500	Mumbai

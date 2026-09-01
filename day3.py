@@ -144,3 +144,25 @@ employees = pd.DataFrame({
 
 # Q18 Select employees whose experience is between 3 and 8 years and salary above ₹55,000.
 # print(employees[(employees["experience"]>3) & (employees["experience"]<8) & (employees["salary"]>55000)])
+
+
+# Level 3 – isin() and between()
+
+#19 Select employees from IT, HR, or Finance using isin().
+# print(employees[employees["department"].isin(["IT","HR","Finance"])])
+
+# Q20 Select employees from Hyderabad or Bangalore using isin().
+# print(employees["city"].isin(["Hyderabad","Bangalore"]))
+
+# Q21 Select employees aged between 25 and 30 using between().
+# print(employees[employees["age"].between(25,30)])
+# print(employees[employees["age"].between(25, 30)])
+
+# Q22 Select employees earning between ₹50,000 and ₹80,000 using between().
+# print(employees[employees["salary"].between(50000,80000)])
+
+# Q23 Select employees whose experience is between 2 and 6 years.
+# print(employees[employees["experience"].between(2,6)])
+
+# Q24 Select employees who are not from IT or HR using ~isin().
+# print(employees[~employees["department"].isin(["IT", "HR"])])
