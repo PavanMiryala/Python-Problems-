@@ -1,0 +1,46 @@
+   Order_ID  Order_Date Customer_ID Customer_Name        City           Category         Product  Quantity    Price  Discount Payment_Method Order_Status
+0   ORD0001  2026-01-05        C002         Priya  Hyderabad              Mobile      Headphones       1.0   4398.0       4.0   Credit Card     Completed
+1   ORD0002  2026-01-09        C002         Priya    Chennai              Mobile      Headphones       3.0   4482.0      13.0           Cash    Completed
+2   ORD0003  2026-01-13        C014          Neha    Chennai         Electronics      Laptop Pro       1.0  65258.0      14.0           Cash    Completed
+3   ORD0004  2026-01-17        C003         Rahul      Mumbai             mobile    Smartphone X       3.0  32244.0      14.0           Cash    Completed
+4   ORD0005  2026-01-21        C002         Priya   HYDERABAD       electronics       Monitor 24       4.0  12476.0       6.0     Debit Card    Completed
+5   ORD0006  2026-01-25        C011           NaN        PUNE        Electronics      Laptop Pro       2.0  65342.0       8.0    Credit Card    Completed
+6   ORD0007  2026-01-29        C013          Ajay        Pune        Electronics      Laptop Pro       3.0  65205.0       5.0            upi    Completed
+7   ORD0008  2026-02-02        C002         Priya         NaN        Electronics      Monitor 24       4.0  12079.0      16.0     Debit Card    Completed
+8   ORD0009  2026-02-06        C010         Divya        PUNE        Electronics      Laptop Pro       2.0  64908.0      20.0    Net Banking    Completed
+9   ORD0010  2026-02-10        C005         Kiran    Chennai         Electronics      Monitor 24       4.0  12997.0      13.0    Credit Card    Completed
+10  ORD0011  2026-02-14        C002         Priya   Bengaluru        Electronics      Laptop Pro       4.0  64661.0      18.0            upi    Completed
+11  ORD0012  2026-02-18        C006         Anita    Chennai         Electronics  Wireless Mouse       2.0   2260.0       NaN            UPI    Completed
+12  ORD0013  2026-02-22        C007         Vijay     CHENNAI        Electronics  Wireless Mouse       2.0   2017.0      16.0            UPI    Completed
+13  ORD0014  2026-02-26        C007         Vijay     CHENNAI    Home Appliances       Air Fryer       2.0   7547.0       3.0           Cash    Completed
+14  ORD0015  2026-03-02        C005         Kiran    Chennai     Home Appliances       Air Fryer       4.0   7084.0      15.0            NaN    Completed
+15  ORD0016  2026-03-06        C003         Rahul      Mumbai    Home Appliances       Air Fryer       1.0   7300.0      19.0     Debit Card    Completed
+16  ORD0017  2026-03-10        C003         Rahul     CHENNAI             Mobile        Tablet S       1.0  23582.0       5.0   Credit Card     Completed
+17  ORD0018  2026-03-14        C008         Pooja     Chennai             Mobile      Headphones       2.0   4550.0       9.0            UPI    Completed
+18  ORD0019  2026-03-18        C005         Kiran  BENGALURU         electronics      Monitor 24       1.0  12281.0       5.0     Debit Card    Completed
+19  ORD0020  2026-03-22        C014           NaN     Chennai             mobile        Tablet S       2.0  24047.0       7.0           Cash    Completed
+20  ORD0021  2026-03-26        C010         Divya  Hyderabad              Mobile    Smartphone X       5.0  32436.0       3.0            upi    Completed
+21  ORD0022  2026-03-30        C014          Neha     CHENNAI        Electronics      Laptop Pro       4.0  64616.0      10.0    Credit Card    Completed
+22  ORD0023  2026-04-03        C014          Neha   HYDERABAD        Electronics      Laptop Pro       NaN  65437.0      19.0           Cash    Completed
+23  ORD0024  2026-04-07        C003         Rahul      Mumbai             Mobile    Smartphone X       3.0  31780.0       6.0           Cash    Completed
+24  ORD0025  2026-04-11        C015         Manoj  Hyderabad        Electronics       Laptop Pro       1.0  65178.0      20.0    Credit Card    Completed
+25  ORD0026  2026-04-15        C003         Rahul     CHENNAI             Mobile        Tablet S       5.0  24326.0       2.0            UPI    Completed
+26  ORD0027  2026-04-19        C002         Priya      Mumbai        Electronics      Monitor 24       3.0  12286.0      20.0           Cash    Completed
+27  ORD0028  2026-04-23        C002         Priya   HYDERABAD             Mobile      Headphones       1.0   3866.0      12.0    Net Banking    Completed
+28  ORD0029  2026-04-27        C013          Ajay         NaN        electronics      Laptop Pro       2.0  65297.0       9.0           Cash    Completed
+29  ORD0030  2026-05-01        C010         Divya      Mumbai             Mobile    Smartphone X       3.0  31613.0      13.0    Net Banking    Completed
+30  ORD0031  2026-05-05        C015         Manoj  BENGALURU             Mobile       Headphones       5.0   3766.0       9.0    Net Banking    Completed
+31  ORD0032  2026-05-09        C003         Rahul     CHENNAI             mobile        Tablet S       5.0  24077.0       NaN            UPI    Completed
+32  ORD0033  2026-05-13        C013          Ajay     Chennai        Electronics      Laptop Pro       5.0  64894.0      17.0   Credit Card     Cancelled
+33  ORD0034  2026-05-17        C001          Arun      Mumbai        Electronics      Monitor 24       1.0  12643.0      11.0    Credit Card    Cancelled
+34  ORD0035  2026-05-21        C014          Neha  Hyderabad        Electronics       Laptop Pro       3.0  65425.0      14.0    Credit Card    Cancelled
+35  ORD0036  2026-05-25        C013          Ajay        Pune    Home Appliances       Air Fryer       4.0      NaN       2.0   Credit Card     Cancelled
+36  ORD0037  2026-05-29        C012         Meena     CHENNAI             Mobile    Smartphone X       1.0  31639.0       9.0   Credit Card      Returned
+37  ORD0038  2026-06-02        C006         Anita        Pune             Mobile      Headphones       2.0   3935.0       6.0    Net Banking     Returned
+38  ORD0039  2026-06-06        C007         Vijay   Bengaluru        Electronics      Monitor 24       2.0  12805.0      11.0            UPI     Returned
+39  ORD0040  2026-06-10        C004         Sneha  BENGALURU    Home Appliances        Air Fryer       4.0   7953.0      12.0            UPI     Returned
+40  ORD0041  2026-06-14        C011        Suresh        Pune        Electronics      Laptop Pro       3.0  65094.0       9.0           Cash     Returned
+41  ORD0042  2026-06-18        C009          Ravi   Hyderabad        Electronics      Laptop Pro       1.0  64629.0      11.0     Debit Card     Returned
+42  ORD0004  2026-01-17        C003         Rahul      Mumbai             mobile    Smartphone X       3.0  32244.0      14.0           Cash    Completed
+43  ORD0018  2026-03-14        C008         Pooja     Chennai             Mobile      Headphones       2.0   4550.0       9.0            UPI    Completed
+44  ORD0011  2026-02-14        C002         Priya   Bengaluru        Electronics      Laptop Pro       4.0  64661.0      18.0            upi     Returned

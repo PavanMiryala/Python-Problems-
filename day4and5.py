@@ -119,7 +119,6 @@ from pandas.api.types import (
     is_datetime64_any_dtype,
     is_bool_dtype
 )
-
 print(is_numeric_dtype(data["Price"]))
 print(is_datetime64_any_dtype(data["Order_Date"]))
 print(is_bool_dtype(data["High_Value"]))
