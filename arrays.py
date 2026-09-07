@@ -42,6 +42,7 @@
 #         smallest=i
 # print(smallest)
 
+
 #find sum of the array
 # total=0
 # for i in arr:
@@ -50,7 +51,6 @@
 
 
 #even or odd using array 
-
 # arr=[10,20,30,15,35,40,45]
 # even=0
 # odd=0
@@ -98,7 +98,6 @@
 # print("second highest is ",second_highest)
 
 #by using function 
-
 # def secondhighest(arr):
 #     highest=arr[0]
 #     second_highest=None
@@ -235,11 +234,11 @@
 #         j+=1
 # print(arr)
 
-#remove duplicates 
-arr = [1, 1, 2, 2, 3, 4, 4]
-i=0
-for j in range(1,len(arr)):
-    if arr[i]!=arr[j]:
-        i+=1
-        arr[i]=arr[j]
-print(arr[:i+1])
+# remove duplicates 
+# arr = [1, 1, 2, 2, 3, 4, 4]
+# i=0
+# for j in range(1,len(arr)):
+#     if arr[i]!=arr[j]:
+#         i+=1
+#         arr[i]=arr[j]
+# print(arr[:i+1])
