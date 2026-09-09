@@ -242,3 +242,59 @@
 #         i+=1
 #         arr[i]=arr[j]
 # print(arr[:i+1])
+
+
+#SLIDING WINDOW  PROBLEMS 
+#max sum of subarray 
+# def max_sub_array(nums,k):
+#     window_sum=sum(nums[:k])
+#     max_sum=window_sum
+
+#     for right in range(k,len(nums)):
+#         window_sum +=nums[right]
+#         window_sum -=nums[right-k]
+
+#         max_sum=max(max_sum,window_sum)
+#     return max_sum
+
+# nums=[21,23,24,2,3,5,6,24,26,33,33,36]
+# k=3
+# print(max_sub_array(nums,k))
+
+
+
+# # Maximum Average Subarray
+# def max_avg_subarray(nums,k):
+#     Window_sum =sum(nums[:k])
+#     max_sum=Window_sum
+
+#     for right in range(k,len(nums)):
+#         Window_sum +=nums[right]
+#         Window_sum -=nums[right-k]
+
+#         max_sum=max(max_sum,Window_sum)
+#     return max_sum
+
+# nums=[1,2,3,4,5,12,15,16,11]
+# k=3
+# print(max_avg_subarray(nums,k))
+
+
+#max number of vowels in substring 
+# def max_vowels(s,k):
+#     vowels="aeiou"
+#     count=0
+#     for i in range(k):
+#         if s[i] in vowels:
+#             count +=1
+#     max_count=count
+
+#     for right in range(k,len(s)):
+#         if s[right-k] in vowels:
+#             count-=1
+#         if s[right] in vowels:
+#             count +=1
+#         max_count=max(max_count,count)
+#     return count
+# s="abciiidef"
+# print(max_vowels(s,3))
