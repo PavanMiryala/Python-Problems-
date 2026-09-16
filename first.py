@@ -80,19 +80,137 @@
 #     product=product*i
 # print(product)
 
-# Check palindrome number
+# # Check palindrome number
+# n=int(input("enter the number:"))
+# temp=n
+# rev=0
+# while n>0:
+#     digit=temp%10
+#     rev=rev*10+digit 
+#     n=n//10
+# if temp==rev:
+#     print("it is palindrome")
+# else:
+#     print("it is not palindrome")
 
-# Find largest of 3 numbers
-# Find smallest of 3 numbers
-# Count even and odd digits
-# Find factorial
-# Check prime number
-# Print prime numbers 1–N
-# Find factors of a number
-# Count factors
-# Find GCD
-# Find LCM
-# Check Armstrong number
+# # Find largest of 3 numbers
+# a=14
+# b=16
+# c=10
+# if a>b and a>c:
+#     print("largest is",a)
+# elif b>a and b>c:
+#     print("largest is ",b)
+# else:
+#     print("largest is",c)
+
+# # Find smallest of 3 numbers
+# a=14
+# b=16
+# c=10
+# if a<b and a<c:
+#     print("smallest is ",a)
+# elif b<a and b<c:
+#     print("smallest is ",b)
+# else:
+#     print("smallest is",c)
+
+# # Count even and odd digits
+# a=[1,2,3,4,5,6,7,8,9]
+# even=0
+# odd=0
+# for i in a:
+#     if i%2==0:
+#         even=even+1
+#     else:
+#         odd=odd+1
+# print("evne count is ",even)
+# print("odd count is ",odd)
+
+# # Find factorial
+# def factorial(n):
+#     fact=1
+#     for i in range(1,n+1):
+#         fact=fact*i
+#     return fact
+# result=factorial(5)
+# print(result)
+    
+# # Check prime number
+# n = 7
+# prime = True
+# for i in range(2, n):
+#     if n % i == 0:
+#         prime = False
+#         break
+# if prime:
+#     print("Prime")
+# else:
+#     print("Not Prime")
+
+# # Print prime numbers 1–N
+# def primenumber(n):
+#     for num in range(2,n+1):
+#         prime=True
+#         for i in range(2,num):
+#             if num%i==0:
+#                 prime=False
+#                 break
+#         if prime:
+#             print(num)
+# result=primenumber(50)
+# print(result)
+
+# # Find factors of a number
+# n=30
+# for i in range(1,n+1):
+#     if n%i==0:
+#         print(i)
+
+# # Count factors
+# n=30
+# count=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+# print(count)
+
+# # Find GCD
+# def greatestcommondivisor(a,b):
+#     gcd=1
+#     for i in range(1,min(a,b)+1):
+#         if a%i==0 and b%i==0:
+#             gcd=i
+#     return gcd
+# res=greatestcommondivisor(12,18)
+# print(res)
+
+# # Find LCM
+# def leastcomonfactor(a,b):
+#     lcm=max(a,b)
+#     while True:
+#         if lcm%a==0 and lcm%b==0:
+#             return lcm
+#         lcm=lcm+1
+# res=leastcomonfactor(12,18)
+# print(res)
+
+            
+# # Check Armstrong number
+# def armstrong(n):
+#     temp=n
+#     total=0
+#     while temp>0:
+#         digit=temp%10
+#         total=total+digit**3
+#         temp=temp//10
+#     if total==n:
+#         return True
+#     else:
+#         return False
+# print(armstrong(153))
+# print(armstrong(123))
+
 # 🟡 Level 2 — Beginner+: Strings
 # Reverse a string
 # Count vowels
